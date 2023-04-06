@@ -21,7 +21,7 @@ const MealItemForm = (props) => {
       return;
     }
 
-    props.onAddToCart(enteredAmountNumber)
+    props.onAddToCart(enteredAmountNumber);
   };
 
   return (
