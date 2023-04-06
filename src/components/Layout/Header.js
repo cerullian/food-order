@@ -2,6 +2,7 @@ import mealsImage from "../../assets/meals.jpg";
 import React, { useState } from "react";
 import classes from "./Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
+import Modal from "../UI/Modal/Modal";
 
 const Header = (props) => {
   return (
